@@ -43,7 +43,7 @@ const Hero = () => {
 
               {show && (
                 <p className='text-md'>
-                  By clicking &quot;Submit&quot; below, I agree to receive the latest updates about new products, services, and promotions which may be based on your health and health care activity.
+                  By clicking Submit below, I agree to receive the latest updates about new products, services, and promotions which may be based on your health and health care activity.
                 </p>
               )}
             </div>
@@ -93,7 +93,7 @@ const Hero = () => {
 
               {show && (
                 <p className='text-sm'>
-                  By clicking &quot;Submit&quot; below, I agree to receive the latest updates about new products, services, and promotions which may be based on your health and health care activity.
+                  By clicking Submit below, I agree to receive the latest updates about new products, services, and promotions which may be based on your health and health care activity.
                 </p>
               )}
             </div>
