@@ -44,7 +44,7 @@ const Hero = () => {
             <a className='text-md text-blue-600 font-bold decoration-none hover:underline ml-2' href='#'>Terms and Conditions</a>
             </div>
          
-            {show &&<p className='text-md'>By clicking "Submit" below, I agree to receive the latest updates about new products, services and promotions which may be based on your health and health care activity.</p>}
+            {show &&<p className='text-md'>By clicking {`"Submit"`} below, I agree to receive the latest updates about new products, services and promotions which may be based on your health and health care activity.</p>}
           </div>
           <button
             type="submit"
@@ -86,11 +86,11 @@ const Hero = () => {
             {!show ? <svg width="18px" height="18px" viewBox="0 0 24 24" className="fill-blue-600" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth={0} /><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" /><g id="SVGRepo_iconCarrier"> <path fillRule="evenodd" clipRule="evenodd" d="M12 7C12.2652 7 12.5196 7.10536 12.7071 7.29289L19.7071 14.2929C20.0976 14.6834 20.0976 15.3166 19.7071 15.7071C19.3166 16.0976 18.6834 16.0976 18.2929 15.7071L12 9.41421L5.70711 15.7071C5.31658 16.0976 4.68342 16.0976 4.29289 15.7071C3.90237 15.3166 3.90237 14.6834 4.29289 14.2929L11.2929 7.29289C11.4804 7.10536 11.7348 7 12 7Z" /> </g></svg>
               :
             <svg width="18px" height="18px" viewBox="0 0 1024 1024" className="icon fill-blue-600" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth={0} /><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" /><g id="SVGRepo_iconCarrier"><path d="M903.232 256l56.768 50.432L512 768 64 306.432 120.768 256 512 659.072z" /></g></svg>}
-            {/* <svg width="18px" height="18px" viewBox="0 0 1024 1024" className="icon fill-blue-600" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth={0} /><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" /><g id="SVGRepo_iconCarrier"><path d="M903.232 256l56.768 50.432L512 768 64 306.432 120.768 256 512 659.072z" /></g></svg> */}
+          
             <a className='text-md text-blue-600 font-bold decoration-none hover:underline ml-2' href='#'>Terms and Conditions</a>
             </div>
          
-            {show &&<p className='text-sm'>By clicking "Submit" below, I agree to receive the latest updates about new products, services and promotions which may be based on your health and health care activity.</p>}
+            {show &&<p className='text-sm'>By clicking {`"Submit"`} below, I agree to receive the latest updates about new products, services and promotions which may be based on your health and health care activity.</p>}
           </div>
           <button
             type="submit"
