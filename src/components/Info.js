@@ -7,7 +7,7 @@ const Info = () => {
                 <h1 className='md:text-[3rem] text-2xl font-serif font-bold text-blue-600 md:leading-tight'>Medicare information to help you make the right choice.</h1>
 
                 <div className='md:mt-10 mt-4'>
-                    <h3 className='text-blue-600 md:text-[24px] text-xl mb-6 md:mb-2'>From a health plan that's been right by yodur side. </h3>
+                    <h3 className='text-blue-600 md:text-[24px] text-xl mb-6 md:mb-2'>From a health plan that&apos;s been right by yodur side. </h3>
                     <p>Whether you&apos;re starting your Medicare journey or already a few steps in, it&apos;s important to know what&apos;s new, how it impacts you and when to take action. That&apos;s where we can help. We&apos;re tuned in to the latest Medicare news as it happens. We&apos;ll deliver it in a way that&apos;s easy to understand, so you can stay informed and ensure you have the right coverage for your healthcare needs. Important information with a Free Medicare Decision Guide reflecting Medicare plan options to fit your current and future needs.</p>
 
                 </div>
